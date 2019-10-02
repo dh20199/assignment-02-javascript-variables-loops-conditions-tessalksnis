@@ -79,8 +79,8 @@ function returnArray (first, second, third) {
   return myArray;
 }
 
-let a = returnArray ();
-a
+// let a = returnArray ();
+// a
 
 // Problem 4
 // write a function that, when passed a single argument (an array of 3 or more elements)
