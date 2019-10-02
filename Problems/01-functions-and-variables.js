@@ -55,7 +55,8 @@ function greeting(name) {
   // say goodbye, I might write
   // let parting = "Goodbye, " + name + ".";
   // (but of course, I actually want to say hello.)
-  return "Hello, " + "Ms. Atwood" + ".";
+  let greeting = "Hello, " + "Ms. Atwood" + ".";
+  return greeting;
 }
 
 // let g = greeting();
