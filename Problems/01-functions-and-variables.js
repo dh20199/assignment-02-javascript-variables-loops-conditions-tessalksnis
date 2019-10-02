@@ -37,6 +37,9 @@ function hello () {
   return 'Hello!';
 }
 
+// let h = hello();
+// h
+
 // Problem 2
 // Improve your initial function by accepting a parameter
 // "name" and returning a string "Hello, [insert name]!"
@@ -52,7 +55,11 @@ function greeting(name) {
   // say goodbye, I might write
   // let parting = "Goodbye, " + name + ".";
   // (but of course, I actually want to say hello.)
+  return "Hello, " + "Ms. Atwood" + ".";
 }
+
+// let g = greeting();
+// g
 
 // Problem 3
 // write a function that takes three parameters and returns an array
