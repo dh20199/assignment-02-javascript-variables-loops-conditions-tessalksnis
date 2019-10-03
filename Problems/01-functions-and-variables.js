@@ -75,8 +75,8 @@ function greeting(name) {
 function returnArray (first, second, third) {
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
-  let myArray = ['first', 'second', 'third'];
-  return myArray;
+  let newArray = ['first', 'second', 'third'];
+  return newArray;
 }
 
 let a = returnArray ();
