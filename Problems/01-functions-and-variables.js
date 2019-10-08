@@ -38,7 +38,7 @@ function hello () {
 }
 
 // let h = hello();
-// h
+// h;
 
 // Problem 2
 // Improve your initial function by accepting a parameter
@@ -60,7 +60,7 @@ function greeting(name) {
 }
 
 // let g = greeting();
-// g
+// g;
 
 // Problem 3
 // write a function that takes three parameters and returns an array
@@ -79,9 +79,9 @@ function returnArray (first, second, third) {
   return a;
 }
 
-let z = returnArray("hi", "there", "tess")
+// let ar = returnArray ("cat", "dog", "mouse");
+// ar;
 
-z
 // Problem 4
 // write a function that, when passed a single argument (an array of 3 or more elements)
 // returns a sentence of the form "first second was a third", so, e.g.,
@@ -100,8 +100,11 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-
+  
 }
+
+// let sa = splitArray ("Italo", "Calvino", "novelist");
+// sa
 
 // Problem 5
 // A. Write a simple function that takes two arguments.  Subtact the second number from the first.
