@@ -140,9 +140,9 @@ function carefulSubtract (first, second) {
   }
 }
 
-let c = carefulSubtract(20,5);
+// let c = carefulSubtract(20,5);
 // let c = carefulSubtract('the');
-c;
+// c;
 
 // Problem 6
 // Write a simple function that does the following:
