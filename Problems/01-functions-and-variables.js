@@ -100,8 +100,8 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-  let output = thisArray[0] + " " + thisArray[1] + " was a " + thisArray[2] + ".";
-  return output;
+  let s = thisArray[0] + " " + thisArray[1] + " was a " + thisArray[2] + ".";
+  return s;
 }
 
 // let sa = splitArray (["Italo", "Calvino", "novelist"]);
