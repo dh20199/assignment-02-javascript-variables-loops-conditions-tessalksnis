@@ -133,14 +133,14 @@ function carefulSubtract (first, second) {
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
-  if ((first, second) == 'number') {
+  if ((first, second) >= 0) {
     return first - second;
   } else {
     return "I can only subtract numbers.";
   }
 }
 
-let c = carefulSubtract(10,5);
+let c = carefulSubtract(20,5);
 // let c = carefulSubtract('the');
 c;
 
