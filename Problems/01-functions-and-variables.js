@@ -163,7 +163,7 @@ function typeTester (unknown) {
   if (unknown) {
     return unknown + " yay!"; }
   if (unknown = " ") {
-    return "Sorry, I can't do anything with a null value"; }
+    return "Sorry, I can't do anything with a null value."; }
   else {
     return "I don't know how to use that kind of variable."; }
 }
