@@ -100,13 +100,12 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-  let array = [thisArray[0], thisArray[1], thisArray [2]],
-      output = array[0] + " " + array[1] + " was a " + array[2];
+  let output = thisArray[0] + " " + thisArray[1] + " was a " + thisArray[2] + ".";
   return output;
 }
 
-let sa = splitArray ("Italo", "Calvino", "novelist");
-sa;
+// let sa = splitArray (["Italo", "Calvino", "novelist"]);
+// sa;
 
 // Problem 5
 // A. Write a simple function that takes two arguments.  Subtact the second number from the first.
