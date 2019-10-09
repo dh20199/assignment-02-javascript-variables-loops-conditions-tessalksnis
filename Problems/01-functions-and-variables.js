@@ -158,9 +158,13 @@ function carefulSubtract (first, second) {
 function typeTester (unknown) {
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
+  
 }
 
-
+// let t = typeTester('Tess is the best');
+// let t = typeTester(2);
+// let t = typeTester();
+// t;
 
 // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
 // MODIFYING THIS CODE WILL ALMOST CERTAINLY CAUSE YOUR TESTS TO BREAK
