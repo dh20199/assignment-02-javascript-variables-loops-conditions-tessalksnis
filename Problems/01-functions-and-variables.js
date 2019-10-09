@@ -159,15 +159,17 @@ function typeTester (unknown) {
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
   if (unknown >= 0) {
-    return unknown*unknown;}
+    return unknown*unknown; }
+  if (unknown = "") {
+    return unknown + " yay!"; }
+  if (unknown) {
+    return "sorry, I can't do anything with a null value"; }
   else {
-    return "I don't know how to use that kind of variable.";}
+    return "I don't know how to use that kind of variable."; }
 }
 
-// let t = typeTester('Tess is the best');
-//let t = typeTester(3);
-// let t = typeTester();
-// t;
+let t = typeTester("tess");
+t;
 
 // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
 // MODIFYING THIS CODE WILL ALMOST CERTAINLY CAUSE YOUR TESTS TO BREAK
