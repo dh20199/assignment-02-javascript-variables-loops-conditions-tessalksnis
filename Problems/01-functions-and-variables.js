@@ -118,8 +118,12 @@ function splitArray (thisArray) {
  */
 function subtract(number1, number2) {
   // subtract number2 from number1, and return the result.
+  let sub = number1 - number2;
+  return sub;
 }
 
+// let n = subtract(10,5);
+// n;
 
 //B. Write a slightly more complex number that only performs the subtraction after testing to be
 // sure that both parameters are numbers. If so, return the result. If not, return the string
