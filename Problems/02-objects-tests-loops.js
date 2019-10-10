@@ -26,10 +26,16 @@ function returnObject (first, last, prof) {
   // o.firstName = first
   // etc.
   // don't forget to return the object
-  
+  var info = {
+    firstname : first,
+    lastname : last,
+    profession : prof,
+  };
+  return info;
 }
 
-
+let r = returnObject ("Italo", "Calvino", "novelist");
+r;
 
 // Problem 2
 // Write a function that takes an "object literal" with the properties
