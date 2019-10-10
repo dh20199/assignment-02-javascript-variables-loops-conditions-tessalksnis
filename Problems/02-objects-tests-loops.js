@@ -72,6 +72,8 @@ function objectToSentence (obj) {
   return 'RETURNVALUE';
 }
 
+let o = objectToSentence ({firstName : 'Italo', lastName : 'Calvino', profession : 'novelist'});
+o;
 
 // Problem 3
 // Write a function that takes an object as a parameter. If the object
