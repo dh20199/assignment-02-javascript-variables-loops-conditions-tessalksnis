@@ -34,8 +34,8 @@ function returnObject (first, last, prof) {
   return info;
 }
 
-let r = returnObject ("Italo", "Calvino", "novelist");
-r;
+// let r = returnObject ("Italo", "Calvino", "novelist");
+// r;
 
 // Problem 2
 // Write a function that takes an "object literal" with the properties
