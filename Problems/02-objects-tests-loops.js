@@ -27,8 +27,8 @@ function returnObject (first, last, prof) {
   // etc.
   // don't forget to return the object
   var info = {
-    firstname : first,
-    lastname : last,
+    firstName : first,
+    lastName : last,
     profession : prof,
   };
   return info;
