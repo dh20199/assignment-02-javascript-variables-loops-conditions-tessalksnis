@@ -168,8 +168,8 @@ function typeTester (unknown) {
     return "I don't know how to use that kind of variable."; }
 }
 
-let t = typeTester({name: 'none:'});
-t;
+// let t = typeTester({name: 'none:'});
+// t;
 
 // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
 // MODIFYING THIS CODE WILL ALMOST CERTAINLY CAUSE YOUR TESTS TO BREAK
