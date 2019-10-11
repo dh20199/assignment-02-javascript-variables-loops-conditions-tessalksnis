@@ -108,6 +108,7 @@ function wasWriter (obj) {
   // "return" statement inside the conditional braces
   // so you can, e.g.,
   // if (...) {return A} else {return B}
+  
 }
 
 let w = wasWriter ({ firstName:"Italo", lastName: "Calvino", profession: "novelist"});
