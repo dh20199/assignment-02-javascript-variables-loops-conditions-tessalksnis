@@ -69,7 +69,8 @@ function objectToSentence (obj) {
   // obj.propertyname
   // note the quotes in the first options
   // also note: you need to change this next line!!
-  return 'RETURNVALUE';
+  let returnValue = obj["firstName"] + " " + obj["lastName"] + " was a " + obj["profession"] + ".";
+  return returnValue;
 }
 
 let o = objectToSentence ({firstName : 'Italo', lastName : 'Calvino', profession : 'novelist'});
