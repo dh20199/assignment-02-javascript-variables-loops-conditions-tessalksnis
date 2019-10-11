@@ -73,8 +73,8 @@ function objectToSentence (obj) {
   return returnValue;
 }
 
-let o = objectToSentence ({firstName : 'Italo', lastName : 'Calvino', profession : 'novelist'});
-o;
+//let o = objectToSentence ({firstName : 'Italo', lastName : 'Calvino', profession : 'novelist'});
+// o;
 
 // Problem 3
 // Write a function that takes an object as a parameter. If the object
@@ -110,6 +110,8 @@ function wasWriter (obj) {
   // if (...) {return A} else {return B}
 }
 
+let w = wasWriter ({ firstName:"Italo", lastName: "Calvino", profession: "novelist"});
+w;
 
 // Problem 4
 // Write a function that, when passed a string and an integer as parameters,
