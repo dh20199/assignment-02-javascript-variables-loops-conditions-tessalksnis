@@ -140,7 +140,7 @@ function stringIterator (aString, aNumber) {
   }
 }
 
-// let it = stringIterator ("Oh Canada!"", 5);
+// let it = stringIterator ("Oh Canada!", 5);
 // it;
 
 // Problem 5
@@ -166,12 +166,12 @@ function stringIterator (aString, aNumber) {
 function prettyIterator (aString, aNumber) {
   // be sure to check your results on this one; it has a trick. maybe 2. 
   for (let i = 0; i < aNumber; i++) {
-    let theString = aString + (i + 1) + "\n" ;
+    let theString = aString + "(" + (i++) + ")" + "\n" ;
     return theString.repeat(aNumber) ;
   }
 }
 
-let pi = prettyIterator ("Reconciliation before Celebration", 150);
+let pi = prettyIterator ("Reconciliation before Celebration", 5);
 pi;
 
 // Problem 6
