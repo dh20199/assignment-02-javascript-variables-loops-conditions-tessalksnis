@@ -165,8 +165,9 @@ function stringIterator (aString, aNumber) {
  */
 function prettyIterator (aString, aNumber) {
   // be sure to check your results on this one; it has a trick. maybe 2. 
+  var count = 1;
   for (let i = 0; i < aNumber; i++) {
-    let theString = aString + "(" + (i++) + ")" + "\n" ;
+    let theString = aString + "(" + (count++) + ")" + "\n" ;
     return theString.repeat(aNumber) ;
   }
 }
