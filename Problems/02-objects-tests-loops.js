@@ -108,11 +108,15 @@ function wasWriter (obj) {
   // "return" statement inside the conditional braces
   // so you can, e.g.,
   // if (...) {return A} else {return B}
-  
+  if (obj["profession"] === "novelist") {
+    return obj["firstName"] + " " + obj["lastName"] + " was a writer." ;
+  } else {
+    return obj["firstName"] + " " + obj["lastName"] + " was not a writer." ;
+  }
 }
 
-let w = wasWriter ({ firstName:"Italo", lastName: "Calvino", profession: "novelist"});
-w;
+// let w = wasWriter ({ firstName:"Italo", lastName: "Calvino", profession: "novelist"});
+// w;
 
 // Problem 4
 // Write a function that, when passed a string and an integer as parameters,
