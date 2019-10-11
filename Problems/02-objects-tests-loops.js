@@ -135,8 +135,13 @@ function wasWriter (obj) {
 function stringIterator (aString, aNumber) {
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
+  for (let i = 0; i < aNumber ; i++) {
+    return aString.repeat(aNumber) ;
+  }
 }
 
+// let it = stringIterator ('Oh Canada!', 5);
+// it;
 
 // Problem 5
 // Improve upon the above function by adding the iteration number in
