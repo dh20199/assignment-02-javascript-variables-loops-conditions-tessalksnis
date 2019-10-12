@@ -136,7 +136,7 @@ function stringIterator (aString, aNumber) {
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
   for (let i=0; i < aNumber; i++) {
-    return aString.repeat (aNumber)
+    return aString.repeat (aNumber) ;
   }
 }
 
@@ -165,9 +165,8 @@ function stringIterator (aString, aNumber) {
  */
 function prettyIterator (aString, aNumber) {
   // be sure to check your results on this one; it has a trick. maybe 2. 
-  var count = 1;
   for (let i = 0; i < aNumber; i++) {
-    let theString = aString + "(" + (count++) + ")" + "\n" ;
+    let theString = aString + "(" + (i) + ")" + "\n" ;
     return theString.repeat(aNumber) ;
   }
 }
