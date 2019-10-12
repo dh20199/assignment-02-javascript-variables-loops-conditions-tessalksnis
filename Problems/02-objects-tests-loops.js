@@ -140,8 +140,8 @@ function stringIterator (aString, aNumber) {
   }
 }
 
-// let it = stringIterator ("Oh Canada!", 5);
-// it;
+let it = stringIterator ("Oh Canada!", 5);
+it;
 
 // Problem 5
 // Improve upon the above function by adding the iteration number in
