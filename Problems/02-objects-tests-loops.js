@@ -168,7 +168,7 @@ function prettyIterator (aString, aNumber) {
   for (let i = 1; i <= aNumber; i++) {
     console.log(aString + "(" + (i) + ")" + "\n") ;
     let str = aString + "(" + (i) + ")" + "\n" ;
-    str ; 
+    str ;
   }
 }
 
