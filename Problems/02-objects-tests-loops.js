@@ -165,16 +165,21 @@ function stringIterator (aString, aNumber) {
  */
 function prettyIterator (aString, aNumber) {
   // be sure to check your results on this one; it has a trick. maybe 2. 
-  for (let i = 0; i <= aNumber; i++) {
-    let theString = aString + "(" + (i+1) + ")" + "\n" ;
-    return theString.repeat(aNumber) ;
+  for (let i = 1; i <= aNumber; i++) {
+    console.log(aString + "(" + (i) + ")" + "\n") ;
+    let str = aString + "(" + (i) + ")" + "\n" ;
+    str ; 
   }
 }
 
 // console.log(aString + "(" + (i) + ")" + "\n");
 
-let pi = prettyIterator ("Reconciliation before Celebration", 5);
-pi;
+// let theString = aString + "(" + (i+1) + ")" + "\n" ;
+// return theString.repeat(aNumber) ;
+
+console.log(prettyIterator('the truth', 3)) ;
+// let pi = prettyIterator ("Reconciliation before Celebration", 5);
+// pi;
 
 // Problem 6
 // Write a function that, when passed an object 
