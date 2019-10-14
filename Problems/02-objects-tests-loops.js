@@ -225,9 +225,19 @@ function computeReign (pm) {
   // attributes and variables. remember that you may need to
   // "escape" the ' with \'
   // finally, makre sure you return the sentence as the value of the function
+  let sentence = pm["fullName"] + "'s reign was " + (pm.to - pm.from) + " years long." ;
+  return sentence ;
 }
 
+var Tess = {
+  fullName : "Tess Alksnis",
+  party    : "Politics",
+  from     : 2001,
+  to       : 2019,
+} ;
 
+computeReign (Tess) ;
+console.log(computeReign(Tess)) ;
 
 // Problem 7
 // Write a function that takes as a parameter an ARRAY OF OBJECTS
