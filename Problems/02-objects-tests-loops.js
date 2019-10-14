@@ -290,10 +290,9 @@ function sentences(list) {
   // and the object[attribute] or object.attribute reference format to access
   // the internal components of the objects.
   var sp = "" ;
-  for (let i=0; i<list.length; i++) {
-    let rei = list.to - list.from ;
-    let phrase =  list.fullName + "'s reign was " + rei + " years long." ;
-    sp += phrase ;
+  for (let l of list) {
+    let reign = list.to - list.from ;
+    sp += list.fullName + "'s reign was " + reign + " years long." ;
   }
   return sp ;
 }
