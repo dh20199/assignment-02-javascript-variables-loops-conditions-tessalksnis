@@ -294,32 +294,32 @@ function sentences(list) {
     let reign = l.to - l.from ;
     sp += l.fullName + "'s reign was " + reign + " years long." ;
   }
-  return sp ;
+  return sp + "\n";
 }
 
-var ministers = [ {
-  fullName: "Wilfred Laurier",
-  party: "Liberal",
-  from: "1896",
-  to: "1911"
-}, {
-  fullName: "Robert L. Borden",
-  party: "Conservative/Unionist",
-  from: "1911",
-  to: "1920"
-}, {
-  fullName: "Arthur Meighen",
-  party: "Conservative",
-  from: "1920",
-  to: "1921"
-}, {
-  fullName: "William Lyon Mackenzie King",
-  party: "Liberal",
-  from: "1921",
-  to: "1926"
-}];
+//var ministers = [ {
+//  fullName: "Wilfred Laurier",
+//  party: "Liberal",
+//  from: "1896",
+//  to: "1911"
+//}, {
+//  fullName: "Robert L. Borden",
+//  party: "Conservative/Unionist",
+//  from: "1911",
+//  to: "1920"
+//}, {
+//  fullName: "Arthur Meighen",
+//  party: "Conservative",
+//  from: "1920",
+//  to: "1921"
+//}, {
+//  fullName: "William Lyon Mackenzie King",
+//  party: "Liberal",
+//  from: "1921",
+//  to: "1926"
+//}];
 
-console.log(sentences (ministers));
+// console.log(sentences (ministers));
 
 // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
