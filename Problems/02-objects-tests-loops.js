@@ -291,8 +291,8 @@ function sentences(list) {
   // the internal components of the objects.
   var sp = "" ;
   for (let l of list) {
-    let reign = list.to - list.from ;
-    sp += list.fullName + "'s reign was " + reign + " years long." ;
+    let reign = l.to - l.from ;
+    sp += l.fullName + "'s reign was " + reign + " years long." ;
   }
   return sp ;
 }
