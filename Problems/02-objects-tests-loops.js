@@ -289,7 +289,38 @@ function sentences(list) {
   // is to use the "for...of" loop syntax to loop through the array,
   // and the object[attribute] or object.attribute reference format to access
   // the internal components of the objects.
+  var sp = "" ;
+  for (let i=0; i<list.length; i++) {
+    let rei = list.to - list.from ;
+    let phrase =  list.fullName + "'s reign was " + rei + " years long." ;
+    sp += phrase ;
+  }
+  return sp ;
 }
+
+var ministers = [ {
+  fullName: "Wilfred Laurier",
+  party: "Liberal",
+  from: "1896",
+  to: "1911"
+}, {
+  fullName: "Robert L. Borden",
+  party: "Conservative/Unionist",
+  from: "1911",
+  to: "1920"
+}, {
+  fullName: "Arthur Meighen",
+  party: "Conservative",
+  from: "1920",
+  to: "1921"
+}, {
+  fullName: "William Lyon Mackenzie King",
+  party: "Liberal",
+  from: "1921",
+  to: "1926"
+}];
+
+console.log(sentences (ministers));
 
 // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
