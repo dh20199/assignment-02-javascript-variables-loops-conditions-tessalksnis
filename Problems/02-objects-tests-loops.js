@@ -165,11 +165,12 @@ function stringIterator (aString, aNumber) {
  */
 function prettyIterator (aString, aNumber) {
   // be sure to check your results on this one; it has a trick. maybe 2. 
+  var spc = "" ;
   for (let i = 1; i <= aNumber; i++) {
-    console.log(aString + "(" + (i) + ")" + "\n") ;
     let str = aString + "(" + (i) + ")" + "\n" ;
-    return str.repeat(aNumber) ;
+    spc += str ;
   }
+  return spc ; 
 }
 
 // console.log(aString + "(" + (i) + ")" + "\n");
@@ -177,7 +178,6 @@ function prettyIterator (aString, aNumber) {
 // let theString = aString + "(" + (i+1) + ")" + "\n" ;
 // return theString.repeat(aNumber) ;
 
-console.log(prettyIterator('the truth', 3)) ;
 // let pi = prettyIterator ("Reconciliation before Celebration", 5);
 // pi;
 
