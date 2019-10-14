@@ -225,7 +225,8 @@ function computeReign (pm) {
   // attributes and variables. remember that you may need to
   // "escape" the ' with \'
   // finally, makre sure you return the sentence as the value of the function
-  let sentence = pm["fullName"] + "'s reign was " + (pm.to - pm.from) + " years long." ;
+  let re = pm.to - pm.from ;
+  let sentence = pm["fullName"] + "'s reign was " + re + " years long." ;
   return sentence ;
 }
 
