@@ -292,9 +292,9 @@ function sentences(list) {
   var sp = "" ;
   for (let l of list) {
     let reign = l.to - l.from ;
-    sp += l.fullName + "'s reign was " + reign + " years long." ;
+    sp += l.fullName + "'s reign was " + reign + " years long." + "\n" ;
   }
-  return sp + "\n";
+  return sp ;
 }
 
 //var ministers = [ {
